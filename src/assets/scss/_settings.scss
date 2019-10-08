@@ -1,5 +1,6 @@
 //  Foundation for Emails Settings
 //  ------------------------------
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap');
 //
 //  Table of Contents:
 //
@@ -17,6 +18,10 @@
 // ---------
 
 $primary-color: #2199e8;
+$main-color: #D39A05;
+$light-main: #F6EACD;
+$dark-main: #D39905;
+$dark-font:	#BD8904;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -28,15 +33,17 @@ $black: #0a0a0a;
 $white: #fefefe;
 $pre-color: #ff6908;
 $global-width: 580px;
+$global-mobile-width: 400px;
 $global-width-small: 95%;
-$global-gutter: 16px;
+$global-gutter: 0px;
+$global-gutter-mb: 16px;
 $body-background: $light-gray;
 $container-background: $white;
 $global-padding: 16px;
 $global-margin: 16px;
 $global-radius: 3px;
 $global-rounded: 500px;
-$global-breakpoint: $global-width + $global-gutter;
+$global-breakpoint: $global-mobile-width + $global-gutter-mb;
 
 // 2. Grid
 // -------
@@ -55,6 +62,7 @@ $block-grid-gutter: $global-gutter;
 // -------------
 
 $global-font-color: $black;
+$head-font-family:'Oxygen', sans-serif;
 $body-font-family: Helvetica, Arial, sans-serif;
 $global-font-weight: normal;
 $header-color: inherit;
